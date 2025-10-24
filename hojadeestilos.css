@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f7fb;
+  margin-top: 60px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.contenedor {
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 400px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+#opciones, button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#mensaje {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Estilos dinámicos para cada caso */
+.insertar {
+  color: #fff;
+  background-color: #27ae60; /* verde */
+}
+
+.eliminar {
+  color: #fff;
+  background-color: #e74c3c; /* rojo */
+}
+
+.actualizar {
+  color: #fff;
+  background-color: #f39c12; /* naranja */
+}
+
+.listar {
+  color: #fff;
+  background-color: #2980b9; /* azul */
+}
+
+.vacio {
+  color: #2c3e50;
+  background-color: #bdc3c7; /* gris */
+}
+
